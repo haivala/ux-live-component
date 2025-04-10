@@ -22,7 +22,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 /**
  * @author Gábor Egyed <gabor.egyed@gmail.com>
  */
-class LiveCollectionType extends AbstractType
+final class LiveCollectionType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
